@@ -1,6 +1,6 @@
 # Versitylab Files
 
-Welcome to the official file repository for Versity. This repository serves as the central storage backend for the static academic assets, study materials, and question papers that power the Versity edtech platform for MAKAUT students.
+Welcome to the backend file repository for Versity. This repository serves as the central storage for the static academic assets, study materials, and question papers that power the Versity platform for MAKAUT students.
 
 ## Repository Structure
 
@@ -14,20 +14,20 @@ The files are organized into the following directories to ensure easy management
 
 ## Usage and Integration
 
-For developers and maintainers of the Versity platform, this repository isolates heavy static assets from the primary application logic. 
+This repository isolates heavy static assets from the primary application logic. 
 
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/enigmabreak/versitylab-files.git](https://github.com/enigmabreak/versitylab-files.git)
    ```
 
-2. **Integration:** These directories can be served directly via your backend infrastructure or fetched dynamically from the frontend to populate student dashboards without bloating the core application codebase.
+2. **Integration:** These directories can be served directly via the backend infrastructure or fetched dynamically from the frontend to populate student dashboards without bloating the core application codebase.
 
 3. **Updating Content:** When adding new resources, ensure they are placed in the appropriate directory. It is highly recommended to group files by semester or subject code for scalability.
 
 ## Contributing Guidelines
 
-To maintain a high standard of academic resources:
+To maintain the proper structure and quality of the resources being added:
 
 * Ensure all uploaded documents, particularly scanned notes and question papers, are highly legible.
 * Use strict and consistent naming conventions (e.g., `Computer_Organization_2025_PYQ.pdf`) so the frontend application can reliably parse, filter, and render the files.
